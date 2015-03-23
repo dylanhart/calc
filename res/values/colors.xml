@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="normal" type="color">#FF999999</item>
+    <item name="white" type="color">#FFFFFFFF</item>
+    <item name="black" type="color">#FF000000</item>
+    <item name="dark_gray" type="color">#FF333333</item>
+    <item name="gray" type="color">#FF777777</item>
+    <item name="light_gray" type="color">#FFCCCCCC</item>
+    <item name="red" type="color">#ffc81828</item>
+    <item name="green" type="color">#ff3f8413</item>
+    <item name="blue" type="color">#ff1e29f7</item>
+    <item name="orange" type="color">#fff0ae54</item>
+</resources>

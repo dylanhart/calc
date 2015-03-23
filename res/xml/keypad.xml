@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keypad>
+    <row>
+        <btn txt="asin" openParen="true" drawable="@drawable/button_bg_orange" />
+        <btn txt="acos" openParen="true" drawable="@drawable/button_bg_orange" />
+        <btn txt="atan" openParen="true" drawable="@drawable/button_bg_orange" />
+        <btn txt="del" action="delete" drawable="@drawable/button_bg_red" />
+        <btn txt="clear" action="clear" drawable="@drawable/button_bg_red" />
+    </row>
+    <row>
+        <btn txt="sin" openParen="true" drawable="@drawable/button_bg_orange" />
+        <btn txt="cos" openParen="true" drawable="@drawable/button_bg_orange" />
+        <btn txt="tan" openParen="true" drawable="@drawable/button_bg_orange" />
+        <btn txt="(" drawable="@drawable/button_bg_green" />
+        <btn txt=")" drawable="@drawable/button_bg_green" />
+    </row>
+    <row>
+        <btn txt="7" drawable="@drawable/button_bg_blue" />
+        <btn txt="8" drawable="@drawable/button_bg_blue" />
+        <btn txt="9" drawable="@drawable/button_bg_blue" />
+        <btn txt="^" openParen="true" />
+        <btn txt="sqrt" openParen="true" />
+    </row>
+    <row>
+        <btn txt="4" drawable="@drawable/button_bg_blue" />
+        <btn txt="5" drawable="@drawable/button_bg_blue" />
+        <btn txt="6" drawable="@drawable/button_bg_blue" />
+        <btn txt="+" />
+        <btn txt="-" />
+    </row>
+    <row>
+        <btn txt="1" drawable="@drawable/button_bg_blue" />
+        <btn txt="2" drawable="@drawable/button_bg_blue" />
+        <btn txt="3" drawable="@drawable/button_bg_blue" />
+        <btn txt="*" />
+        <btn txt="÷" />
+    </row>
+    <row>
+        <btn txt="0" drawable="@drawable/button_bg_blue" />
+        <btn txt="." drawable="@drawable/button_bg_blue" />
+        <btn txt="π" drawable="@drawable/button_bg_orange" />
+        <btn txt="Ans" action="disabled" drawable="@drawable/button_bg_green" /><!-- todo: disabled -->
+        <btn txt="=" action="submit" drawable="@drawable/button_bg_green" />
+    </row>
+</keypad>
