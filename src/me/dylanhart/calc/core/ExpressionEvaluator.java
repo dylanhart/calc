@@ -38,7 +38,12 @@ public class ExpressionEvaluator {
         if (numberStack.isEmpty()) {
             return "0";
         } else {
-            return BigDecimal.valueOf(numberStack.pop()).setScale(10, BigDecimal.ROUND_HALF_UP).toPlainString();
+            Double num = numberStack.pop();
+            try {
+                return BigDecimal.valueOf(num).setScale(10, BigDecimal.ROUND_HALF_UP).toPlainString();
+            } catch (NumberFormatException nfe) {
+                return num.toString();
+            }
         }
     }
 
